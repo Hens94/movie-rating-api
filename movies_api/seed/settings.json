@@ -1,0 +1,51 @@
+[
+  {
+    "model": "movies_api.Genre",
+    "pk": 1,
+    "fields": {
+      "name": "Action and Adventure"
+    }
+  },
+  {
+    "model": "movies_api.Genre",
+    "pk": 2,
+    "fields": {
+      "name": "Comedy"
+    }
+  },
+  {
+    "model": "movies_api.Genre",
+    "pk": 3,
+    "fields": {
+      "name": "Fantasy"
+    }
+  },
+  {
+    "model": "movies_api.Genre",
+    "pk": 4,
+    "fields": {
+      "name": "Horror"
+    }
+  },
+  {
+    "model": "movies_api.Genre",
+    "pk": 5,
+    "fields": {
+      "name": "Mystery"
+    }
+  },
+  {
+    "model": "movies_api.Genre",
+    "pk": 6,
+    "fields": {
+      "name": "Drama"
+    }
+  },
+  {
+    "model": "movies_api.Genre",
+    "pk": 7,
+    "fields": {
+      "name": "Science Fiction"
+    }
+  }
+]
