@@ -102,12 +102,11 @@ MOVIES_API_DB_PWD : Asdsk8freak
 
 ### Swagger
 
-Postman
 ![Swagger screen shot][product-screenshot]
 
 ### Postman
 
-![Swagger screen shot][product-screenshot2]
+![Postman screen shot][product-screenshot2]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
