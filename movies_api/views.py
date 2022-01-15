@@ -6,7 +6,11 @@ from django_filters.rest_framework import DjangoFilterBackend
 from .models import Movie, Genre, Rating, WatchList
 from .serializer import MovieSerializer, GenreSerializer, RatingSerializer, WatchListSerializer
 from .pagination import DefaultResultsSetPagination
-from django.db.models import Avg
+from django.db.models import Avg, Func
+
+class Round(Func):
+    function = 'ROUND'
+    template='%(function)s(%(expressions)s, 1)'
 
 class GenreViewSet(viewsets.ReadOnlyModelViewSet):
     queryset = Genre.objects.all()
@@ -14,7 +18,7 @@ class GenreViewSet(viewsets.ReadOnlyModelViewSet):
     permission_classes = [AllowAny]
 
 class MovieViewSet(viewsets.ModelViewSet):
-    queryset = Movie.objects.annotate(rating_avg=Coalesce(Avg('rating__score'), 0.0)).all()
+    queryset = Movie.objects.annotate(rating_avg=Coalesce(Round(Avg('rating__score')), 0.0)).all()
     serializer_class = MovieSerializer
     permission_classes = [AllowAny]
     pagination_class = DefaultResultsSetPagination
