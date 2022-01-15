@@ -32,9 +32,9 @@
 
 This web api allows you to perform all the operations necessary for the operation of the [Movie Rating](https://github.com/Hens94/movie-rating-app) application.
 
-[![Product Name Screen Shot][product-screenshot]](http://nicasource-env.eba-nej7iwiv.us-east-1.elasticbeanstalk.com/)
+[![Product Name Screen Shot][product-screenshot]](https://movieratingapi.hens94.com/)
 
-[![Product Name Screen Shot][product-screenshot2]](http://nicasource-env.eba-nej7iwiv.us-east-1.elasticbeanstalk.com/)
+[![Product Name Screen Shot][product-screenshot2]](https://movieratingapi.hens94.com/)
 
 ### Built With
 
@@ -50,7 +50,7 @@ This web api allows you to perform all the operations necessary for the operatio
 
 ### Hosting With
 
-- [Amazon Web Services](https://aws.amazon.com/) ([http://nicasource-env.eba-nej7iwiv.us-east-1.elasticbeanstalk.com/](http://nicasource-env.eba-nej7iwiv.us-east-1.elasticbeanstalk.com/))
+- [Amazon Web Services](https://aws.amazon.com/) ([https://movieratingapi.hens94.com/](https://movieratingapi.hens94.com/))
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -67,17 +67,17 @@ This web api allows you to perform all the operations necessary for the operatio
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/Hens94/superherosearch.git
+   git clone https://github.com/Hens94/movie-rating-api.git
    ```
 
 2. Create the following enviroment variables
 
-```sh
-MOVIES_API_DB_HOST : moviedb.czz9g76uprds.us-east-1.rds.amazonaws.com
-MOVIES_API_DB_NAME : moviedb
-MOVIES_API_DB_USER : admin
-MOVIES_API_DB_PWD : Asdsk8freak
-```
+   ```sh
+   MOVIES_API_DB_HOST : moviedb.czz9g76uprds.us-east-1.rds.amazonaws.com
+   MOVIES_API_DB_NAME : moviedb
+   MOVIES_API_DB_USER : admin
+   MOVIES_API_DB_PWD : Asdsk8freak
+   ```
 
 3. Open the project in Visual Studio Code
 
@@ -137,7 +137,7 @@ Henry Gadea Mendoza - [LinkedIn](https://www.linkedin.com/in/henry-gadea-mendoza
 
 Project Link: [https://github.com/Hens94/movie-rating-api](https://github.com/Hens94/movie-rating-api)
 
-AWS API Link: [http://nicasource-env.eba-nej7iwiv.us-east-1.elasticbeanstalk.com/](http://nicasource-env.eba-nej7iwiv.us-east-1.elasticbeanstalk.com/)
+AWS API Link: [https://movieratingapi.hens94.com/](https://movieratingapi.hens94.com/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
